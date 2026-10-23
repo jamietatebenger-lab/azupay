@@ -98,7 +98,7 @@ Receive real-time account-to-account payments by creating PayID-addressed paymen
 
 - **Human URL:** [https://developer.azupay.com.au/docs/receiving-payments](https://developer.azupay.com.au/docs/receiving-payments)
 - **Base URL:** `https://api.azupay.com.au/v1`
-- [OpenAPI](openapi/azupay-payment-request.yml)
+- [OpenAPI](openapi/azupay-payment-request-api-openapi.yml)
 - [API Reference](https://developer.azupay.com.au/reference/createpayidpaymentrequest)
 
 ### Azupay Payment API (AzupayOut)
@@ -107,7 +107,7 @@ Send outbound NPP payments to a PayID or a BSB and account number, then poll for
 
 - **Human URL:** [https://developer.azupay.com.au/docs/making-payments](https://developer.azupay.com.au/docs/making-payments)
 - **Base URL:** `https://api.azupay.com.au/v1`
-- [OpenAPI](openapi/azupay-payment.yml)
+- [OpenAPI](openapi/azupay-payment-api-openapi.yml)
 - [API Reference](https://developer.azupay.com.au/reference/makepayment)
 
 ### Azupay PaymentAgreement & Initiation API (AzupayTo / PayTo)
@@ -116,7 +116,7 @@ Establish and manage PayTo payment agreements and initiate eligible debits: crea
 
 - **Human URL:** [https://developer.azupay.com.au/docs/payto-integration-guide](https://developer.azupay.com.au/docs/payto-integration-guide)
 - **Base URL:** `https://api.azupay.com.au/v1`
-- [OpenAPI](openapi/azupay-payment-agreement.yml)
+- [OpenAPI](openapi/azupay-payment-agreement-api-openapi.yml)
 - [API Reference](https://developer.azupay.com.au/reference/createpaymentagreement)
 
 ### Azupay Account Check API (Confirmation of Payee)
@@ -125,7 +125,7 @@ Confirm a payee's BSB/account and name via CoP, check NPP/AzupayTo reachability 
 
 - **Human URL:** [https://developer.azupay.com.au/docs/account-check-cop](https://developer.azupay.com.au/docs/account-check-cop)
 - **Base URL:** `https://api.azupay.com.au/v1`
-- [OpenAPI](openapi/azupay-check-accounts.yml)
+- [OpenAPI](openapi/azupay-check-accounts-api-openapi.yml)
 - [API Reference](https://developer.azupay.com.au/reference/checkaccountdetails)
 
 ### Azupay Report & Balance API
@@ -134,7 +134,7 @@ Retrieve daily transaction reports by month or date range, get time-limited down
 
 - **Human URL:** [https://developer.azupay.com.au/docs/report-api](https://developer.azupay.com.au/docs/report-api)
 - **Base URL:** `https://api.azupay.com.au/v1`
-- [OpenAPI](openapi/azupay-reports.yml)
+- [OpenAPI](openapi/azupay-billing-and-transaction-reports-api-openapi.yml)
 - [API Reference](https://developer.azupay.com.au/reference/getreport)
 
 ### Azupay Clients & API Key Management API
@@ -143,7 +143,7 @@ Manage sub-clients, provision and update sub-merchant API keys, enable/read OAut
 
 - **Human URL:** [https://developer.azupay.com.au/docs/clients-api](https://developer.azupay.com.au/docs/clients-api)
 - **Base URL:** `https://api.azupay.com.au/v1`
-- [OpenAPI](openapi/azupay-configuration.yml)
+- [OpenAPI](openapi/azupay-clients-api-openapi.yml)
 - [API Reference](https://developer.azupay.com.au/reference/createclient)
 
 ## Common Properties
